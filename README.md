@@ -31,10 +31,11 @@ Automatisering: Opsæt et cronjob for at køre scriptet automatisk hver dag kl 3
 
 <h3>Bash:</h3> 
 15 3 * * * /usr/bin/php /sti/til/dit/parner_ads_cancel_canceled_orders.php?cron=1
-🖥️ Brugerflade
+
+<h2>🖥️ Brugerflade</h2>
 Scriptet indeholder et indbygget dashboard, der viser:
 
-<h2>Forbindelsesstatus til Shopify.</h2>
+<h3>Forbindelsesstatus til Shopify.</h3>
 
 En liste over de seneste 50 annullerede ordrer.
 
