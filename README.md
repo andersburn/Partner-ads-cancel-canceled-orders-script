@@ -27,10 +27,10 @@ $pa_prg: Dit Partner Ads Program ID.
 
 Upload: Upload filen til din server (PHP 7.4+ anbefales).
 
-Automatisering: Opsæt et cronjob for at køre scriptet automatisk: (husk ?cron=1)
+Automatisering: Opsæt et cronjob for at køre scriptet automatisk hver dag kl 3:15 (husk på URL'en ?cron=1)
 
-Bash
-*/15 * * * * /usr/bin/php /sti/til/dit/parner_ads_cancel_canceled_orders.php?cron=1
+<h3>Bash:</h3> 
+15 3 * * * /usr/bin/php /sti/til/dit/parner_ads_cancel_canceled_orders.php?cron=1
 🖥️ Brugerflade
 Scriptet indeholder et indbygget dashboard, der viser:
 
